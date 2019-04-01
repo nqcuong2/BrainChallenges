@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1799012035167664}
+  m_IsPrefabParent: 1
+--- !u!1 &1799012035167664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4623614147649414}
+  - component: {fileID: 114049381393609344}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4623614147649414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799012035167664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114049381393609344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799012035167664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  GoogleLiveSyncIsUptoDate: 1
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+  Spreadsheet_SpecializationAsRows: 1
+  Assets: []
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbyGeX5fA7AtR4hhmR5Z3m2dY_GOqn73JgZ4FLYvNg/exec
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 
+  Google_Password: change_this
+  GoogleUpdateFrequency: 3
+  GoogleInEditorCheckFrequency: 2
+  GoogleUpdateDelay: 5
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Vietnamese
+    Code: vi
+    Flags: 0
+  IgnoreDeviceLanguage: 0
+  _AllowUnloadingLanguages: 1
+  mTerms:
+  - Term: Option A
+    TermType: 0
+    Description: 
+    Languages:
+    - Option A
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: SETTINGS
+    TermType: 0
+    Description: 
+    Languages:
+    - SETTINGS
+    - "C\xC0I \u0110\u1EB6T"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Arial
+    TermType: 1
+    Description: 
+    Languages:
+    - 
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: 'LANGUAGE:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'LANGUAGE:'
+    - "NG\xD4N NG\u1EEE:"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: 'SOUND:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'SOUND:'
+    - "\xC2M THANH:"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: MENU
+    TermType: 0
+    Description: 
+    Languages:
+    - Menu
+    - "Th\u1EF1c \u0110\u01A1n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: PAUSE
+    TermType: 0
+    Description: 
+    Languages:
+    - PAUSE
+    - "D\u1EEANG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: UIB - btnClose
+    TermType: 4
+    Description: 
+    Languages:
+    - 
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CLOSE
+    TermType: 0
+    Description: 
+    Languages:
+    - CLOSE
+    - "\u0110\xD3NG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: AGAIN
+    TermType: 0
+    Description: 
+    Languages:
+    - AGAIN
+    - "CH\u01A0I L\u1EA0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: NO
+    TermType: 0
+    Description: 
+    Languages:
+    - NO
+    - "KH\xD4NG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: YES
+    TermType: 0
+    Description: 
+    Languages:
+    - YES
+    - "C\xD3"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: QUIT
+    TermType: 0
+    Description: 
+    Languages:
+    - QUIT
+    - "THO\xC1T"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: COLOR
+    TermType: 0
+    Description: 
+    Languages:
+    - COLOR
+    - "M\xC0U S\u1EAEC"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CLASSIC
+    TermType: 0
+    Description: 
+    Languages:
+    - CLASSIC
+    - "C\u1ED4 \u0110I\u1EC2N"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: ROTATE
+    TermType: 0
+    Description: 
+    Languages:
+    - ROTATE
+    - XOAY
+    Flags: 0000
+    Languages_Touch: []
+  - Term: ORDER
+    TermType: 0
+    Description: 
+    Languages:
+    - ORDER
+    - "TH\u1EE8 T\u1EF0"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: LIKE PREVIOUS
+    TermType: 0
+    Description: 
+    Languages:
+    - 'LIKE
+
+      PREVIOUS'
+    - "GI\u1ED0NG\nTR\u01AF\u1EDAC"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: WHO'S NEW
+    TermType: 0
+    Description: 
+    Languages:
+    - 'WHO''S
+
+      NEW'
+    - "C\xC1I N\xC0O\nM\u1EDAI"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: SYMMETRY
+    TermType: 0
+    Description: 
+    Languages:
+    - 'SYMME-
+
+      TRY'
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CONTINUE
+    TermType: 0
+    Description: 
+    Languages:
+    - CONTINUE
+    - "TI\u1EBEP T\u1EE4C"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: RESET
+    TermType: 0
+    Description: 
+    Languages:
+    - RESET
+    - "CH\u01A0I L\u1EA0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: L E V E L 1
+    TermType: 0
+    Description: 
+    Languages:
+    - L E V E L
+    - "C\u1EA4P \u0110\u1ED8"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Then new shape appears
+    TermType: 0
+    Description: 
+    Languages:
+    - Then new shape appears
+    - "M\u1ED9t h\xECnh m\u1EDBi xu\u1EA5t hi\u1EC7n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Choose whether it is the same shape
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Choose whether it is the
+
+      same shape'
+    - "Ch\u1ECDn c\xF3 ph\u1EA3i n\xF3 gi\u1ED1ng\nv\u1EDBi h\xECnh tr\u01B0\u1EDBc"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Select whether they match
+    TermType: 0
+    Description: 
+    Languages:
+    - Select whether they match
+    - "Ch\u1ECDn c\xF3 kh\u1EDBp hay kh\xF4ng"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Shape appears
+    TermType: 0
+    Description: 
+    Languages:
+    - Shape appears
+    - "M\u1ED9t h\xECnh xu\u1EA5t hi\u1EC7n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Game board appears
+    TermType: 0
+    Description: 
+    Languages:
+    - Game board appears
+    - "Khung game xu\u1EA5t hi\u1EC7n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: New colored block appears
+    TermType: 0
+    Description: 
+    Languages:
+    - New colored block appears
+    - "M\u1ED9t kh\u1ED1i m\xE0u m\u1EDBi xu\u1EA5t hi\u1EC7n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Guess which one is new
+    TermType: 0
+    Description: 
+    Languages:
+    - Guess which one is new
+    - "\u0110o\xE1n xem c\xE1i n\xE0o m\u1EDBi"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Click squares on the right side symmetrically to the left side
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Click squares on the right side
+
+      symmetrically to the left side'
+    - "Ch\u1ECDn kh\u1ED1i b\xEAn ph\u1EA3i\n\u0111\u1ED1i x\u1EE9ng v\u1EDBi b\xEAn
+      tr\xE1i"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Memorize colored block positions
+    TermType: 0
+    Description: 
+    Languages:
+    - Memorize colored block positions
+    - "Nh\u1EDB v\u1ECB tr\xED nh\u1EEFng kh\u1ED1i \u0111\u01B0\u1EE3c t\xF4 m\xE0u"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Please compare the color name and the color of the shape
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Please compare the color name
+
+      and the color of the shape'
+    - "So s\xE1nh t\xEAn m\xE0u v\xE0 m\xE0u c\u1EE7a h\xECnh"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Tap the hidden blocks
+    TermType: 0
+    Description: 
+    Languages:
+    - Tap the hidden blocks
+    - "Ch\u1ECDn nh\u1EEFng kh\u1ED1i \u1EA9n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Memorize highlighted block positions
+    TermType: 0
+    Description: 
+    Languages:
+    - Memorize highlighted block positions
+    - "Nh\u1EDB nh\u1EEFng kh\u1ED1i \u0111\u01B0\u1EE3c t\xF4 m\xE0u"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Blocks disappear
+    TermType: 0
+    Description: 
+    Languages:
+    - Blocks disappear
+    - "Nh\u1EEFng kh\u1ED1i m\xE0u bi\u1EBFn m\u1EA5t"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Blocks disappear and  grid rotates
+    TermType: 0
+    Description: 
+    Languages:
+    - "Blocks disappear and \ngrid rotates"
+    - "C\xE1c kh\u1ED1i bi\u1EBFn m\u1EA5t v\xE0\nkhung l\u1EDBn xoay"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Click blocks in same sequence
+    TermType: 0
+    Description: 
+    Languages:
+    - Click blocks in same sequence
+    - "Ch\u1ECDn kh\u1ED1i theo th\u1EE9 t\u1EF1"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Remember the sequence
+    TermType: 0
+    Description: 
+    Languages:
+    - Remember the sequence
+    - "Nh\u1EDB th\u1EE9 t\u1EF1 xu\u1EA5t hi\u1EC7n"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: START
+    TermType: 0
+    Description: 
+    Languages:
+    - BACK
+    - "CH\u01A0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: GAME MODES
+    TermType: 0
+    Description: 
+    Languages:
+    - 'GAME
+
+      MODES'
+    - "CH\u1EBE \u0110\u1ED8\nCH\u01A0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: GAME
+    TermType: 0
+    Description: 
+    Languages:
+    - GAME
+    - "CH\u1EBE \u0110\u1ED8"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: "CH\u01A0I"
+    TermType: 0
+    Description: 
+    Languages:
+    - MODES
+    - "CH\u01A0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: SYMME- TRY
+    TermType: 0
+    Description: 
+    Languages:
+    - 'SYMME-
+
+      TRY'
+    - "\u0110\u1ED0I X\u1EE8NG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Level
+    TermType: 0
+    Description: 
+    Languages:
+    - Level
+    - "C\u1EA5p"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: BACK
+    TermType: 0
+    Description: 
+    Languages:
+    - BACK
+    - "QUAY L\u1EA0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: PLAY
+    TermType: 0
+    Description: 
+    Languages:
+    - PLAY
+    - "CH\u01A0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: You are totally genius!!! Try beating other modes.
+    TermType: 0
+    Description: 
+    Languages:
+    - 'You are totally genius!!!
+
+      Try beating other modes.'
+    - "B\u1EA1n l\xE0 thi\xEAn t\xE0i!!!\r H\xE3y \u0111\xE1nh\nb\u1EA1i nh\u1EEFng
+      ch\u1EBF \u0111\u1ED9 kh\xE1c."
+    Flags: 0000
+    Languages_Touch: []
+  CaseInsensitiveTerms: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
