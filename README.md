@@ -8,3 +8,6 @@ For every play, players have 3 lives to make mistakes. However, there are some m
 
 ## Acknowledgement
 * [Phuc Truong](https://www.facebook.com/elvistruong212) for creating 2D sprites for the game.
+
+## Demo
+![](https://media.giphy.com/media/jPBOcheksJeA6CS4LO/giphy.gif)
