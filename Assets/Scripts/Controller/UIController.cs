@@ -250,20 +250,7 @@ public class UIController : MonoBehaviour
 		finishText.gameObject.SetActive (false);
 		bestLvText.text = "" + GameController.instance.BestLv;
 		gameCount++;
-		ZenSDK.instance.TrackLevelCompleted (gameCount);
-		ZenSDK.instance.ShowFullScreen ();
-
 	}
-
-//	public void onclickshowvideo(){
-//		ZenSDK.instance.ShowVideoReward ((bool is_true)=>{
-//			if(is_true){
-//				
-//			}else{
-//				
-//			}
-//		});
-//	}
 
 	public void UIFinishGame ()
 	{
@@ -488,10 +475,8 @@ public class UIController : MonoBehaviour
 			ScrollSnapRect.instance.DecelerateTime = Time.deltaTime;
 			break;
 		case "Rate":
-			ZenSDK.instance.Rate ();
 			break;
 		case "LDBoard":
-			ZenSDK.instance.ShowLeaderboard ();
 			break;
 		case "GamePause":
 			GameController.instance.OnGamePause ();
